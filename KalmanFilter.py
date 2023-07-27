@@ -1,6 +1,8 @@
 import numpy as np
 
-# X, y, z is the position and dx, dy, dz is the velocity in 3D space
+# Kalman Filter v1.0 for Flight Software Library
+
+# [x, y, z] = position, [dx, dy, dz] = velocity
 class KalmanFilter(object):
     def __init__(self, dt, accelVariance):
     
